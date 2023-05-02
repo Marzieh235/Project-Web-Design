@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Vazir;
+  font-family: Vazirmatn;
   src: url(./../Fonts/fonts/ttf/Vazirmatn-Medium.ttf);
   font-style: normal;
   font-weight: normal;
@@ -31,12 +31,16 @@
 }
 .container-fluid-custom .social-media i {
   vertical-align: -10px;
-  margin-right: -3px;
-  padding: 12px;
+  margin-right: -7px;
+  padding: 11px;
   width: 40px;
+  justify-content: space-around;
 }
 .container-fluid-custom .social-media i:hover {
-  background-color: rgb(255, 86, 25);
+  background-color: #ff571a;
+  border: 1px solid #ff571a;
+  border-radius: 20px;
+  padding: 11px;
 }
 .container-fluid-custom .social-media a {
   color: #fff;

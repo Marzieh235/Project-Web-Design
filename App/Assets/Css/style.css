@@ -1,48 +1,54 @@
-@font-face {
-  font-family: Vazirmatn;
-  src: url(./../Fonts/fonts/ttf/Vazirmatn-Medium.ttf);
-  font-style: normal;
-  font-weight: normal;
-}
-/* start contact section styles */
+@import url(./_contact.css);
 
-.container-fluid-custom {
-  background-color: rgb(6, 6, 123);
-  color: #fff;
-  height: 40px;
+/* start navbar section styles */
+.active {
+  color: #ffa743;
 }
-
-.container-fluid-custom .contact {
-  font-size: 15px;
+.nav {
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #efefef;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
-.container-fluid-custom .contact i {
-  color: rgb(255, 86, 25);
-  vertical-align: -12px;
-  margin-right: 15px;
+.nav a {
+  float: right;
+  color: rgb(46, 46, 46);
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 16px;
 }
-.container-fluid-custom .contact span {
-  color: #fff;
-  margin: 5px;
-  vertical-align: 1px;
+.nav a:hover {
+  color: #ffa743;
 }
 
-.container-fluid-custom .social-media {
-  direction: ltr;
+.icon {
+  display: none;
 }
-.container-fluid-custom .social-media i {
-  vertical-align: -10px;
-  margin-right: -7px;
-  padding: 11px;
-  width: 40px;
-  justify-content: space-around;
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+  .nav a.icon {
+    display: block;
+    float: left;
+  }
+
+  .nav.responsive {
+    position: relative;
+  }
+
+  .nav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 }
-.container-fluid-custom .social-media i:hover {
-  background-color: #ff571a;
-  border: 1px solid #ff571a;
-  border-radius: 20px;
-  padding: 11px;
-}
-.container-fluid-custom .social-media a {
-  color: #fff;
-}
-/* end contact section styles */
+/* end navbar section styles */

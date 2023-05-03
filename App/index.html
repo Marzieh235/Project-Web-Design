@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>صفحه اصلی</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="./Assets/Css/grid-style.css" />
     <link rel="stylesheet" href="./Assets/Css/style.css" />
     <script
@@ -13,25 +18,52 @@
     ></script>
   </head>
   <body>
+    <!-- start contact section -->
     <div class="container-fluid container-fluid-custom">
       <div class="row">
         <div class="container">
           <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 contact">
-            <i class="fa-regular fa-envelope xs-hidden"
-              ><span>marzieh235@gmail.com</span></i
+            <a href="">
+              <i class="fa-regular fa-envelope xs-hidden"
+                ><span>marzieh235@gmail.com</span></i
+              ></a
             >
-            <i class="fa-solid fa-phone-flip"><span>09122222222</span></i>
+            <a href="">
+              <i class="fa-solid fa-phone-flip"><span>09122222222</span></i>
+            </a>
           </div>
           <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 social-media">
             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
             <a href=""><i class="fa-sharp fa-solid fa-paper-plane"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a class="xs-hidden" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="xs-hidden" href=""
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
             <a class="xs-hidden" href=""><i class="fa-solid fa-rss"></i></a>
           </div>
         </div>
       </div>
     </div>
+    <!-- end contact section -->
+    <!-- start navbar section -->
+    <nav class="nav" id="mynav">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-s-12 col-m-12 col-l-12 col-xl-12">
+            <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" class="active">خانه</a>
+            <a href="#">دوره های آموزشی</a>
+            <a href="#">درباره ما</a>
+            <a href="#"> تیم ما</a>
+            <a href="#">مطالب</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunc();"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end contact section -->
 
     <script src="./Assets/Js/main.js"></script>
   </body>

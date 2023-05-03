@@ -1,54 +1,6 @@
+@import url(./grid-style.css);
 @import url(./_contact.css);
+@import url(./Nav.css);
+@import url(./Header.css);
 
-/* start navbar section styles */
-.active {
-  color: #ffa743;
-}
-.nav {
-  overflow: hidden;
-  box-shadow: 1px 1px 1px 1px #efefef;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-}
-.nav a {
-  float: right;
-  color: rgb(46, 46, 46);
-  text-align: center;
-  padding: 12px 16px;
-  font-size: 16px;
-}
-.nav a:hover {
-  color: #ffa743;
-}
 
-.icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {
-    display: none;
-  }
-  .nav a.icon {
-    display: block;
-    float: left;
-  }
-
-  .nav.responsive {
-    position: relative;
-  }
-
-  .nav.responsive a.icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-}
-/* end navbar section styles */

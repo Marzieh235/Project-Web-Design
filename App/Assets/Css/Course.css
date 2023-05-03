@@ -1,0 +1,24 @@
+/* start Course section styles */
+.section-title span {
+  position: relative;
+  display: inline-block;
+}
+.section-title span::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #ffa743;
+  top: 10px;
+  left: 100px;
+}
+
+.section-title span::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #ffa743;
+  top: 10px;
+  left: -105px;
+}

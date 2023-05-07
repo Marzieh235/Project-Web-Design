@@ -1,6 +1,6 @@
 .A-Us-title span {
     display: inline-block;
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 
 .A-Us-title span::before {
@@ -9,8 +9,8 @@
     width: 100px;
     height: 3px;
     background-color: #ffa743;
-    top: 10px;
-    left: 52px;
+    top: 12px;
+    left: 60px;
 }
 
 .A-Us-title span::after {
@@ -19,7 +19,7 @@
     width: 100px;
     height: 3px;
     background-color: #ffa743;
-    top: 10px;
+    top: 12px;
     left: -107px;
 }
 
@@ -28,7 +28,6 @@
     background-color: #f1f1f186;
     padding: 40px;
     margin-top: 100px;
-    /* min-height: 300px; */
 }
 
 .about-us-left-side h4 {

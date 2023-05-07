@@ -1,7 +1,8 @@
 @import url(./grid-style.css);
-@import url(./_contact.css);
+@import url(./_Contact.css);
 @import url(./_Nav.css);
 @import url(./_Header.css);
 @import url(./_Course.css);
 @import url(./_About-Us.css);
 @import url(./_Teachers.css);
+@import url(./_Status.css);

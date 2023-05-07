@@ -3,6 +3,7 @@
   color: #ffa743;
 }
 .nav {
+  background-color: #ffff;
   overflow: hidden;
   box-shadow: 1px 1px 1px 1px #efefef;
   position: sticky;

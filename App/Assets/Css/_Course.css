@@ -1,7 +1,9 @@
 /* start Course section styles */
 .section-title span {
   display: inline-block;
+  /* font-size: 16px; */
 }
+
 .section-title span::before {
   content: "";
   position: absolute;
@@ -22,9 +24,6 @@
   left: -105px;
 }
 
-/* .card-body{
-  margin-bottom: 10px;
-} */
 .card-body img {
   margin-top: 10px;
   margin-right: 10px;
@@ -32,20 +31,27 @@
   height: 30px;
   filter: brightness(0.5);
 }
+
 .card-body .course-title {
   top: 2px;
   right: 60px;
 }
+
 .card-body .course-title a {
   font-size: 16px;
 }
+
 .card-body .course-title p {
   font-size: 14px;
   color: #adadad;
 }
+
 .card {
   box-shadow: 1px 1px 1px 1px #f3f3f3;
+  cursor: pointer;
+  background-color: #ffffff;
 }
+
 .card-header .card-overlay {
   background-color: rgba(71, 68, 68, 0.642);
   width: 100%;
@@ -55,6 +61,20 @@
   opacity: 0;
   transition: 0.5s ease-in;
 }
-.card:hover .card-overlay{
+
+.card:hover .card-overlay {
   opacity: 1;
+}
+
+.card .card-overlay p {
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+
+.course-wrapper {
+  background-image: url(../Images/common_img.png);
+  background-attachment: fixed;
 }

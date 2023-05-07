@@ -2,4 +2,5 @@
 @import url(./_contact.css);
 @import url(./_Nav.css);
 @import url(./_Header.css);
-@import url(./Course.css);
+@import url(./_Course.css);
+@import url(./_About-Us.css);

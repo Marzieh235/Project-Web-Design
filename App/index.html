@@ -1,116 +1,220 @@
 <!DOCTYPE html>
 <html lang="fa">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>صفحه اصلی</title>
-    <link
-      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="./Assets/Css/grid-style.css" />
-    <link rel="stylesheet" href="./Assets/Css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/ab2c24a790.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- start contact section -->
-    <div class="container-fluid container-fluid-custom">
-      <div class="row">
-        <div class="container">
-          <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 contact">
-            <a href="">
-              <i class="fa-regular fa-envelope xs-hidden"
-                ><span>marzieh235@gmail.com</span></i
-              ></a
-            >
-            <a href="">
-              <i class="fa-solid fa-phone-flip"><span>09122222222</span></i>
-            </a>
-          </div>
-          <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 social-media">
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-sharp fa-solid fa-paper-plane"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a class="xs-hidden" href=""
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a class="xs-hidden" href=""><i class="fa-solid fa-rss"></i></a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صفحه اصلی</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+    type="text/css" />
+  <link rel="stylesheet" href="./Assets/Css/grid-style.css" />
+  <link rel="stylesheet" href="./Assets/Css/style.css" />
+  <script src="https://kit.fontawesome.com/ab2c24a790.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- start contact section -->
+  <div class="container-fluid container-fluid-custom">
+    <div class="row">
+      <div class="container">
+        <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 contact">
+          <a href="">
+            <i class="fa-regular fa-envelope xs-hidden"><span>marzieh235@gmail.com</span></i></a>
+          <a href="">
+            <i class="fa-solid fa-phone-flip"><span>09122222222</span></i>
+          </a>
+        </div>
+        <div class="col-xs-6 col-s-6 col-m-6 col-l-6 col-xl-6 social-media">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-sharp fa-solid fa-paper-plane"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="xs-hidden" href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="xs-hidden" href=""><i class="fa-solid fa-rss"></i></a>
         </div>
       </div>
     </div>
-    <!-- end contact section -->
-    <!-- start navbar section -->
-    <nav class="nav" id="mynav">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-s-12 col-m-12 col-l-12 col-xl-12">
-            <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" class="active">خانه</a>
-            <a href="#">دوره های آموزشی</a>
-            <a href="#">درباره ما</a>
-            <a href="#"> تیم ما</a>
-            <a href="#">مطالب</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunc();"
-              ><i class="fa-solid fa-bars"></i
-            ></a>
-          </div>
+  </div>
+  <!-- end contact section -->
+  <!-- start navbar section -->
+  <nav class="nav" id="mynav">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-s-12 col-m-12 col-l-12 col-xl-12">
+          <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="#" class="active">خانه</a>
+          <a href="#">دوره های آموزشی</a>
+          <a href="#">درباره ما</a>
+          <a href="#"> تیم ما</a>
+          <a href="#">مطالب</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunc();"><i class="fa-solid fa-bars"></i></a>
         </div>
       </div>
-    </nav>
-    <!-- end navbar section -->
-    <!-- start Header section -->
-    <header class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-s-12 col-m-12 col-l-12 col-xl-12 p-0">
+    </div>
+  </nav>
+  <!-- end navbar section -->
+  <!-- start Header section -->
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-s-12 col-m-12 col-l-12 col-xl-12 p-0">
         <figure>
           <div class="overlay absolute">
             <div class="header-title">
               <h1 class="mb-20">مبتکر آموزش نوین</h1>
               <h3 class="mb-20">برگزار کننده دوره های برنامه نویسی دیجیتال مارکتینگ</h3>
-              <a  href="">بیشتر بدانید ...</a>
+              <a class="btn-orange" href="">بیشتر بدانید ...</a>
             </div>
           </div>
           <img class="img-responsive img-header" src="./Assets/Images/header.jpg" alt="">
         </figure>
       </div>
-    </header>
-    <!-- end Header section -->
-    <!-- start Course section -->
-    <section class="container mt-20">
-        <div class="row">
-          <div class="section-title text-center relative mb-20">
-            <h5>
-              <span class="relative">دوره های آموزشی</span>
-            </h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-s-12 col-m-4 col-l-4 col-xl-4">
-            <div class="card">
-              <div class="card-header relative">
-                <div class="card-overlay absolute"></div>
-                <img class="img-responsive" src="./Assets/Images/1.jpg" alt="">
+  </header>
+  <!-- end Header section -->
+  <!-- start Course section -->
+  <section class="container-fluid mt-20 course-wrapper">
+    <div class="row">
+      <div class="section-title text-center relative m-50">
+        <h5>
+          <span class="relative">دوره های آموزشی</span>
+        </h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی متخصص طراحی وب : لورم ایپسوم لورم ایپسوم</p>
               </div>
-              <div class="card-body relative">
-                <img src="./Assets/Images/6.png" alt="">
-                <div class="course-title absolute">
-                  <a href="">دوره طراحی وب</a>
-                  <p>دوره تخصصی طراحی وب</p>
-                </div>
+              <img class="img-responsive" src="./Assets/Images/1.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/6.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره طراحی وب</a>
+                <p>دوره تخصصی طراحی وب</p>
               </div>
             </div>
           </div>
         </div>
-    </section>
-    <!-- end Course section -->
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی برنامه نویس وب : لورم ایپسوم لورم ایپسوم</p>
+              </div>
+              <img class="img-responsive" src="./Assets/Images/2.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/5.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره برنامه نویس وب</a>
+                <p>دوره برنامه نویس وب</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی متخصص هوش مصنوعی : لورم ایپسوم لورم ایپسوم</p>
+              </div>
+              <img class="img-responsive" src="./Assets/Images/3.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/4.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره هوش مصنوعی</a>
+                <p>دوره تخصصی هوش مصنوعی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی برنامه نویسی کودکان : لورم ایپسوم لورم ایپسوم</p>
+              </div>
+              <img class="img-responsive" src="./Assets/Images/4.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/3.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره برنامه نویسی کودکان</a>
+                <p>دوره برنامه نویسی کودکان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی عکاسی حرفه ای : لورم ایپسوم لورم ایپسوم</p>
+              </div>
+              <img class="img-responsive" src="./Assets/Images/5.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/2.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره عکاسی</a>
+                <p>دوره تخصصی عکاسی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-s-6 col-m-4 col-l-4 col-xl-4 mb-20">
+          <div class="card">
+            <div class="card-header relative">
+              <div class="card-overlay absolute">
+                <p class="absolute">دوره ی طراحی چهره : لورم ایپسوم لورم ایپسوم</p>
+              </div>
+              <img class="img-responsive" src="./Assets/Images/6.jpg" alt="">
+            </div>
+            <div class="card-body relative">
+              <img src="./Assets/Images/1.png" alt="">
+              <div class="course-title absolute">
+                <a href="">دوره طراحی چهره</a>
+                <p>دوره تخصصی طراحی چهره</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Course section -->
+  <!-- start Aboutus section -->
+  <section class="container-fluid">
+    <div class="A-Us-title text-center relative m-50">
+      <h5>
+        <span class="relative">درباره ما</span>
+      </h5>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-s-12 col-m-5 col-l-5 col-xl-6 about-us-right-side">
+        <img class="img-responsive" src="./Assets/Images/about-img.png" alt="" srcset="">
+      </div>
+      <div class="col-xs-12 col-s-12 col-m-7 col-l-7 col-xl-6 about-us-left-side">
+        <h4>درباره ما</h4>
+        <P>تیم برنرز لی، مخترع وب، با برپایی یک سایت وب در اوت ۱۹۹۱، نام خود را به عنوان نخستین سازندهٔ وب در تاریخ
+          نگاشت. او در
+          نخستین وب سایتش، از اَبَرمتن و پیوندی برای ایمیل (پست الکترونیک) استفاده کرده بود.
+
+          در آغاز، وب سایت‌ها با کُدهای ساده HTML نوشته می‌شدند،</P>
+        <a class="btn-orange" href="">ادامه مطلب...</a>
+      </div>
+
+    </div>
+  </section>
+  <!-- end Aboutus section -->
 
 
-    <script src="./Assets/Js/main.js"></script>
-  </body>
+
+  <script src="./Assets/Js/main.js"></script>
+</body>
+
 </html>

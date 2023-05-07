@@ -1,0 +1,7 @@
+.topic-section-wrapper {
+    background-image: url(./../Images/color-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: blur(1px); */
+    height: 500px;
+}

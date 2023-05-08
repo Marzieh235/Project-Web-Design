@@ -1,6 +1,6 @@
 .status-section-wrapper {
     background-color: #ffc412;
-    height: 200px;
+    min-height: 200px;
 }
 
 .status-section-wrapper img {
@@ -15,10 +15,4 @@
 }
 .status-section-wrapper .count-title{
     font-size: 20px;
-}
-
-@media screen and (max-width:992px){
-    .status-section-wrapper {
-            height: 760px;
-        }
 }

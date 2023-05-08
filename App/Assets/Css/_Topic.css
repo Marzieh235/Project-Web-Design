@@ -1,7 +1,102 @@
 .topic-section-wrapper {
     background-image: url(./../Images/color-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     /* filter: blur(1px); */
-    height: 500px;
+    height: 900px;
+}
+
+
+.topic-title span {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.topic-title span::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #ffa743;
+    top: 12px;
+    left: 172px;
+}
+
+.topic-title span::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #ffa743;
+    top: 12px;
+    left: -106px;
+}
+
+
+.topic-section-wrapper .card {
+    box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);
+}
+
+.topic-section-wrapper .card-header {
+    overflow: hidden;
+}
+
+.topic-section-wrapper .card-header img {
+    transition: 0.5s ease;
+}
+
+.topic-section-wrapper .card:hover img {
+    transform: scale(1.4) rotate(10deg);
+}
+
+.topic-section-wrapper .card .card-body {
+    margin: 15px 2px;
+}
+
+.topic-section-wrapper .card .card-body a {
+    font-size: 16px;
+    padding: 2px;
+}
+
+.topic-section-wrapper .card-body .card-date {
+    top: -33px;
+    right: 12px;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.topic-section-wrapper .card-body .card-date div:first-child {
+    background-color: #feb52f;
+}
+
+.topic-section-wrapper .card-body .card-date div:last-child {
+    background-color: #d4d4d4;
+}
+
+.topic-section-wrapper .card-body p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 22.4px;
+    color: #adadad;
+    margin: 7px;
+}
+
+.topic-section-wrapper .card-footer ul {
+    margin-top: -15px;
+    padding: 6px;
+    border-top: 1px solid #efefef;
+}
+
+.topic-section-wrapper .card-footer ul li {
+    display: inline-block;
+}
+
+.topic-section-wrapper .card-footer ul li i,
+.topic-section-wrapper .card-footer ul li span {
+    font-size: 14px;
+    color: #adadad;
+    padding: 0 5px;
 }

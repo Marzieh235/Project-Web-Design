@@ -30,5 +30,37 @@
     font-size: 14px;
     margin: 10px 46px 0px 0px;
     color: #b8b2b2;
+}
 
+.faq-section-bg .faq-left-side .tabs {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);
+    background-color: #ffc412;
+}
+
+.faq-section-bg .faq-left-side .tabs .tab {
+    color: white;
+    overflow: hidden;
+}
+
+.faq-section-bg .faq-left-side .tabs .tab .tab-label {
+    padding: 16px;
+    background-color: #ffc412;
+    width: 100%;
+    cursor: pointer;
+}
+
+.faq-section-bg .faq-left-side .tabs .tab .tab-label:hover {
+    background-color: #ed930d;
+}
+
+.faq-section-bg .faq-left-side .tabs .tab .tab-label::before {
+    font: var(--fa-font-solid);
+    content: "\f053";
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    /* transition: 0.4s; */
+    
 }

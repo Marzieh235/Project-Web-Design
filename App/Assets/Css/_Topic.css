@@ -1,8 +1,8 @@
 .topic-section-wrapper {
     background-image: url('./../Images/color-bg.png');
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
+    background-position: center;
+    /* background-attachment: fixed; */
     /* filter: blur(1px); */
     height: 900px;
 }

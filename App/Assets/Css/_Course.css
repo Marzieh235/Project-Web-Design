@@ -1,19 +1,4 @@
- .section-title span {
-   display: inline-block;
-   font-size: 16px;
- }
-
- .section-title span::before {
-   content: "";
-   position: absolute;
-   width: 100px;
-   height: 3px;
-   background-color: #ffa743;
-   top: 12px;
-   left: 118px;
- }
-
- .section-title span::after {
+.section-title span::after {
    content: "";
    position: absolute;
    width: 100px;

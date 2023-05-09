@@ -1,37 +1,11 @@
 .topic-section-wrapper {
-    background-image: url(./../Images/color-bg.png);
+    background-image: url('./../Images/color-bg.png');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-attachment: fixed;
     /* filter: blur(1px); */
     height: 900px;
 }
-
-
-.topic-title span {
-    display: inline-block;
-    font-size: 16px;
-}
-
-.topic-title span::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: #ffa743;
-    top: 12px;
-    left: 172px;
-}
-
-.topic-title span::after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: #ffa743;
-    top: 12px;
-    left: -106px;
-}
-
 
 .topic-section-wrapper .card {
     box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);

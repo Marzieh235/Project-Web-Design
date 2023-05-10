@@ -36,7 +36,7 @@
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);
-    background-color: #ffc412;
+    /* background-color: #ffc412; */
 }
 
 .faq-section-bg .faq-left-side .tabs .tab {
@@ -55,7 +55,7 @@
     background-color: #ed930d;
 }
 
-.faq-section-bg .faq-left-side .tabs .tab .tab-label::before {
+.faq-section-bg .faq-left-side .tabs .tab .tab-label::after {
     font: var(--fa-font-solid);
     content: "\f053";
     text-align: center;
@@ -63,4 +63,13 @@
     height: 16px;
     /* transition: 0.4s; */
     
+}
+.faq-section-bg .faq-left-side .tab-content {
+    max-height: 0;
+    background-color: #7777fb;
+     transition: .3s ease;
+}
+
+.faq-section-bg .faq-left-side input:checked ~ .tab-content{
+    max-height: 300px;
 }

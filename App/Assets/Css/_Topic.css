@@ -4,7 +4,7 @@
     background-position: center;
     /* background-attachment: fixed; */
     /* filter: blur(1px); */
-    height: 900px;
+    min-height: 900px;
 }
 
 .topic-section-wrapper .card {

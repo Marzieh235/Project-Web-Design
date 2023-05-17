@@ -119,6 +119,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* button style */
 .btn-orange {
   background-color: #ffa743;
@@ -130,21 +131,21 @@ ul {
 }
 
 /* section title style */
- .section-title span {
-   display: inline-block;
-   font-size: 16px;
- }
+.section-title span {
+  display: inline-block;
+  font-size: 16px;
+}
 
- .section-title span::before {
-   content: "";
-   position: absolute;
-   width: 100px;
-   height: 3px;
-   background-color: #ffa743;
-   top: 12px;
-   right: -106px;
- }
- 
+.section-title span::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #ffa743;
+  top: 12px;
+  right: -106px;
+}
+
 
 .row::after {
   content: "";

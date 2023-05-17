@@ -6,11 +6,11 @@
 .overlay {
   width: 100%;
   min-height: 90vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .header-title {
-  color: #fff;
+  color: #504e4e;
   margin: 200px;
   max-width: 500px;
 }
@@ -28,6 +28,7 @@
     transform: translate(-50%, -50%);
     border-radius: 5px;
   }
+
   .overlay,
   .img-header {
     min-height: 100%;
@@ -38,15 +39,19 @@
   .header-title {
     padding: 40px;
   }
+
   .header-title h1 {
     font-size: 20px;
   }
+
   .header-title h3 {
     font-size: 14px;
   }
+
   .header-title a {
     font-size: 10px;
     margin-left: 126px;
   }
 }
+
 /* end Header section styles */

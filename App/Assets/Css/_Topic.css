@@ -19,7 +19,7 @@
     transition: 0.5s ease;
 }
 
-.topic-section-wrapper .card:hover img {
+.topic-section-wrapper .card .card-header:hover img {
     transform: scale(1.4) rotate(10deg);
 }
 
